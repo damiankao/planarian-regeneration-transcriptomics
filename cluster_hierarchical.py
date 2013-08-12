@@ -18,7 +18,8 @@ order = '''0 hr head
 48 hr tail
 72 hr tail'''.strip().split('\n')
 
-#input is a tab delimited m x n matrix of observations where rows are genes and columns are conditions. Row and column headers are included in the input file.
+#input is a tab delimited m x n matrix of observations where rows are conditions and columns are transcripts. Row and column headers are included in the input file.
+
 inFile = open(sys.argv[1],'r')
 colHeaders = inFile.next().strip().split()[1:]
 rowHeaders = []
