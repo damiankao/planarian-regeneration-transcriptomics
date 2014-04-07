@@ -1,5 +1,7 @@
 # Supplemental scripts for analysis of the planarian regeneration transcriptome
 
+Publication: [Damian Kao, Daniel Felix, Aziz Aboobaker. The planarian regeneration transcriptome reveals a shared but temporally shifted regulatory program between opposing head and tail scenarios. BMC Genomics 2013, 14:797. doi:10.1186/1471-2164-14-797](http://www.biomedcentral.com/1471-2164/14/797)
+
 9 scripts are included in this repository for various processes of transcriptome consolidation and tag count analysis:  
 
 * **cluster_hierarchical.py** - Performs hierarchical clustering on libraries using complete linkage and correlation distance.  
